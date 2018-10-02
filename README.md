@@ -1,5 +1,22 @@
 # terraform-scaffold
-Simple aim of creating a Terraform scaffold repo for the base of your projects.
+Simple Terraform scaffold repo for the base of your projects.
+
+### Overview
+
+Un-opionated lightweight scaffolding of a basic terraform repo. Deliberately lightweight (& for the time being un-finished).
+
+Yes there is a considerable amount more I could be doing with tf.sh & I may well add to that over the coming months. Most projects will not require additional complexity.
+
+### To do
+
+- Add better examples in environments
+- Show how components can be shared to the environment workspaces
+- Allow for variables to be passed to the final terraform cmd from the bin/tf.sh wrapper
+- Improve the bin/tf.sh wrapper
+    - nice args
+    - var passing to underlying cmd
+    - pre-flight checks
+    - input validation
 
 ### Structure
 
