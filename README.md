@@ -7,6 +7,33 @@ Un-opionated lightweight scaffolding of a basic terraform repo. Deliberately lig
 
 Yes there is a considerable amount more I could be doing with tf.sh & I may well add to that over the coming months. Most projects will not require additional complexity.
 
+### Usage
+
+##### Bootstrap
+
+You can get setup using an s3 bucket as backend for terraform simply with the following. Be sure to check the variables.tf defaults and override them if you like.
+
+```
+cd terraform/bootstrap
+terraform init
+terraform plan -out tfplan.out
+terraform apply "tfplan.out"
+```
+
+##### Plan
+
+dev plan >
+```
+cd bin/
+./tf.sh plan dev eu-west-1
+```
+
+prod plan >
+```
+cd bin/
+./tf.sh plan prod eu-west-1
+```
+
 ### To do
 
 - Add better examples in environments
