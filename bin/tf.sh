@@ -4,10 +4,32 @@ workspace=$2
 region=$3
 s3_bucket='example-terraform-state-files'
 
+console_error(){
+	echo "Error: ${1}";
+	exit 1;
+}
+
+validate_input(){
+	if [ -z $action ] ||
+	   [ -z $workspace ] ||
+	   [ -z $region ]; then
+		console_error 'Required arguments are missing. Build failed.'
+	fi
+}
+
+terraform_installed=$(command -v terraform)
+if [[ -z "$terraform_installed" ]]; then
+	console_error 'Terraform must be installed! Build failed.'
+fi
+
+# Do some input validation
+validate_input
+
 echo "Action: ${1}"
 echo "Workspace: ${2}"
 echo "Region: ${3}"
 
+# jump around
 cd ../
 
 # symlink in the component backend.
