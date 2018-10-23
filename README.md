@@ -2,7 +2,7 @@
 
 Simple Terraform scaffold repo for the base of your projects.
 
-[Overview](Overview)
+[Overview](#overview)
 
 <a name="overview" />
 ### Overview
