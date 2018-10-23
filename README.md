@@ -4,7 +4,7 @@ Simple Terraform scaffold repo for the base of your projects.
 
 ### Overview
 
-Un-opionated lightweight scaffolding of a basic terraform repo. Deliberately lightweight (& for the time being un-finished).
+Un-opinionated lightweight scaffolding of a basic terraform repo. Deliberately lightweight (& for the time being un-finished).
 
 Yes there is a considerable amount more I could be doing with tf.sh & I may well add to that over the coming months. Most projects will not require additional complexity.
 
