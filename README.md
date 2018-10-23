@@ -2,12 +2,12 @@
 
 Simple Terraform scaffold repo for the base of your projects.
 
-[Overview](#overview)
-[usage](#usage)
-[Bootstrap](#bootstrap)
-[Plan](#plan)
-[Structure](#structure)
-[To-do](#todo)
+- [Overview](#overview)
+- [usage](#usage)
+- [Bootstrap](#bootstrap)
+- [Plan](#plan)
+- [Structure](#structure)
+- [To-do](#todo)
 
 <a name="overview"></a>
 ### Overview
