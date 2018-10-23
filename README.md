@@ -1,4 +1,5 @@
-# terraform-scaffold
+# Terraform Scaffold (terraform-scaffold)
+
 Simple Terraform scaffold repo for the base of your projects.
 
 ### Overview
