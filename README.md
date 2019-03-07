@@ -36,6 +36,9 @@ terraform apply "tfplan.out"
 
 dev plan >
 ```
+
+##### Author info
+David Heward
 cd bin/
 ./tf.sh plan dev eu-west-1
 ```
