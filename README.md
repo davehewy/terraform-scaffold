@@ -95,3 +95,6 @@ cd bin/
     - var passing to underlying cmd
     - pre-flight checks
     - input validation
+
+### Author info
+David Heward
